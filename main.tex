@@ -1,0 +1,36 @@
+\documentclass{beamer}
+
+\usetheme{simple}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[scale=2]{ccicons}
+\usepackage{subfig}
+
+\setwatermark{\includegraphics[height=8cm]
+{img/cmyk-original.jpg}}
+
+\title{A Fast Partitional Clustering Algorithm
+based on Nearest Neighbours
+Heuristics \cite{ganguly_2018}}
+
+\subtitle{Una Algoritmo de Agrupamiento por Particiones Rápido basado en la Heurística de los Vecinos Más Cercanos}
+
+\date{\today}
+\author{Edgar Hernández, \and Ivan Feliciano}
+%\institute{\url{http://github.com/famuvie}}
+
+\begin{document}
+
+\maketitle
+
+\input{problem.tex}
+
+\begin{frame}[allowframebreaks]
+        \frametitle{References}
+        \nocite{*}
+        \bibliographystyle{apalike}
+        \bibliography{references.bib}
+\end{frame}
+
+
+\end{document}
